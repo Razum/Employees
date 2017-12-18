@@ -1,0 +1,31 @@
+{
+  "name": "employees",
+  "version": "1.0.0",
+  "description": "server part for employyes test site",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "babel-register": "^6.26.0",
+    "dotenv": "^4.0.0",
+    "knex": "^0.14.2",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-helmet": "^3.3.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "mysql": "^2.15.0",
+    "nconf": "^0.9.1",
+    "objection": "^0.9.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.13.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
